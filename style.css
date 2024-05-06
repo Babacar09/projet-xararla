@@ -1,0 +1,496 @@
+.Entete{
+height: 35px;
+
+}
+.liste{
+    list-style: none;
+    padding-left: 10px;
+    
+  
+
+}
+.logo{
+    color: black;
+    margin-left: 33PX;
+    font-size: 23PX;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+a{
+    text-decoration: none;
+}
+.accueil{
+    padding-left: 40px;
+    color: black;
+    font-size: 23PX;
+    font-weight: bold;
+}
+.accueil:hover{
+    color:#8b0058;
+    transition: 0.4s;
+}
+.produite{
+    padding-left: 40px;
+    color: black;
+    font-size: 23PX;
+    font-weight: bold;
+}
+.produite:hover{
+    color:#8b0058;
+    transition: 0.4s;
+}
+.service{
+    padding-left: 40px;
+    color: black;
+    font-size: 23PX;
+    font-weight: bold;
+}
+.service:hover{
+    color:#8b0058;
+    transition: 0.4s;
+}
+.contacte{
+    padding-left: 40px;
+    color: black;
+    font-size: 23PX;
+    font-weight: bold;
+}
+.contacte:hover{
+    color:#8b0058;
+    transition: 0.4s;
+}
+#icones{
+    margin-left: 474PX;
+    display: inline-flex;
+}
+.fa-solid{
+    padding-left: 13PX;
+    padding-right: 6PX;
+}
+
+.abonnement{
+    margin-left: 4px;
+    margin-bottom:1PX;
+    width: 95PX;
+    height: 43PX;
+    background-color: green;
+    border: green;
+    border-radius: 10PX;
+    color: #FFF;
+
+}
+h2{
+    color: green;
+}
+.p2{
+font-size: 15PX;
+}
+.P1{
+    font-size: 35PX;
+    font-weight: bold;
+}
+.part1{
+    display: inline-flex;
+  background-color: rgb(245, 245, 245);
+  height: 545PX;
+  margin-top: 27PX;
+}
+.part2{
+    display: inline-flex;
+    margin-top: 0PX;
+    background-color: rgba(112, 128, 143, 0.205);
+    width: 100%;
+}
+.box1{
+    margin-left: 70PX;
+    margin-top: 63PX;
+}
+.box2{
+     margin-left: 160PX;
+    margin-top: 20PX; 
+}
+ .modifimg{
+width: 650PX;
+animation: img 8s ease-in-out infinite;
+border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+} 
+@keyframes img{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; 
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; 
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; 
+    }
+}
+
+.voter{
+    font-size: "60px";
+    height: 55px;
+    width: 195PX;
+    border-radius: 10PX;
+    background-color: rgb(7, 138, 7);
+    color: #FFF;
+    border: rgb(7, 138, 7);
+    text-align: center;
+    cursor: pointer;
+}
+.box3{
+    border: solid #ffffff 1PX;
+    border-radius: 10px;
+    width: 250PX;
+    height: 490PX;
+    margin-left: 62PX;
+    padding-left: 95PX;
+    padding-top: 14PX;
+    background-color: #FFF;
+   margin-top: 12PX;
+   margin-bottom: 12PX;
+}
+.box4{
+    margin-left: 20PX;
+    background-color: #FFF;
+    border: solid  #FFF 1PX;
+     border-radius: 10PX;
+     width: 780PX;
+     margin-top:12PX ;
+     margin-bottom: 12PX;
+
+}
+.image1{
+    border: #000, solid;
+    border-radius: 10px;
+    width: 150PX;
+    height: 220PX;
+    margin-top: 15PX;
+}
+.image2{
+    border: #000, solid;
+    border-radius: 10px;
+    width: 150PX;
+    height: 220PX;
+}
+.imagesbox{
+    display: inline-flex;
+    margin-left: 10PX;
+    
+   
+}
+.p3{
+    font-size: 38PX;
+    text-decoration: underline;
+    color: rgb(154, 101, 32);
+    text-align: left;
+    margin-left: 20PX;
+}
+.p4{
+    margin-left: 20PX;
+
+}
+.imagesboxe1{
+border-radius: 0PX 90PX 0PX  90PX;
+border: solid #00000033 9PX;
+height: 184PX;
+margin-left: 10PX;
+}
+.lesproduits{
+    display: inline-flex;
+    margin-left: 110PX;
+    
+    
+}
+.boximg{
+    border: solid rgb(174, 174, 174) 1PX;
+    margin-left: 25PX;
+    border-radius: 10PX;
+    background-color: rgb(174, 174, 174);
+    box-shadow: -15PX, -25PX, -25PX,-15PX rgb(152, 152, 152);
+    margin-bottom: 22PX;
+    width: 209PX;
+}
+.h3{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0;
+}
+.sankal{
+    text-align: center;
+}
+.lesproduits{
+    margin-left: 34PX;
+}
+.PRODUITSNATURELS{
+    text-align: center;
+}
+.produitsnaturels1{
+    text-align: center;
+}
+.produitsnaturels2{
+    text-align: center;
+}
+.produitsnaturels3{
+    text-align: center;
+}
+.prix{
+    text-align: center;
+}
+.arraw{
+    text-align: center;
+}
+.ajouter{
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    height: 10PX;
+    border-radius: 0,20PX;
+    align-items: center;
+   
+   
+}
+.boxajouter{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    height: 30PX;
+    border-radius: 10PX;
+   
+   
+}
+#ajouter{
+    align-items: center;
+    padding-top: 6PX;
+ 
+}
+.monbox1{
+    font-size: 3PX;
+}
+
+.monboximg1{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg2{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg3{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg4{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.part3{
+    background-color: rgb(216, 216, 216);
+    
+    
+    
+    
+}
+.par4{
+   
+    background-size: cover;
+    height: 500PX;
+    top: 0;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://festivaldessaveursdafrique.wordpress.com/wp-content/uploads/2020/10/cropped-exo_5-1.jpg");
+    background-attachment: fixed;
+    width: auto;
+
+}
+.temoignage{
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 0PX;
+}
+.lorem{
+    text-align: center;
+    color: #FFF;
+}
+.mesboxes{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 323PX;
+
+}
+.mesboxes1{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 323PX;
+    
+
+}
+.boxes1{
+    border:solid, #ffffff7f 1PX;
+    width: 180PX;
+    height: 300PX;
+    border-radius: 10PX;
+    background-color: #FFF;
+    padding-left: 23PX;
+    margin-left: 10PX;
+}
+.boxes2{
+    border:solid, #FFF 1PX;
+    width: 180PX;
+    height: 300PX;
+    border-radius: 10PX;
+    background-color: #FFF;
+    padding-left: 23PX;
+    margin-left: 10PX;
+}
+.monimageslogo{
+    border-radius: 50%;
+    margin-left: 28PX;
+    margin-top: 12PX;
+}
+.monlorem{
+    text-align: center;
+    font-size: 13PX;
+}
+.meslorem{
+    margin-top: 123PX;
+}
+.abdoukhadim{
+    text-align: center;
+}
+.par5{
+    background-color: #8f8f8f;
+}
+.par5{
+    display: inline-flex;
+}
+  /* .mesimagespare5,img{
+    
+    font-size: 12PX;
+    width: 40PX;
+    inline-size: auto;
+}  
+ */
+ .par6{
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://www.consommonslocal.net/wp-content/uploads/2020/06/banner-Ker-maam.jpg");
+    height: 500PX;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+ }
+.moninput{
+    align-items: center;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 15%;
+    width: 350PX;
+    height: 23PX;
+    border-radius: 10PX;
+}
+.monbutton{
+    height: 37PX;
+    width: 177PX;
+    background-color: rgb(8, 136, 93);
+    margin-left: 47%;
+    border-radius: 6PX;
+    color: #FFF;
+    margin-top: 12PX;
+}
+.nosservices{
+    text-align: center;
+    margin-top: 0;
+    font-size: 33PX;
+    color: #066059;
+}
+.par7{
+    background-color: #d3d3d3;
+    height: 404PX;
+   
+}
+.par8{
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://senego.com/wp-content/uploads/2017/06/femmes-10.jpg");
+    height: 400PX;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact{
+    text-align: center;
+    color: #FFF;
+    margin-top: 0PX;
+    font-size: 43PX;
+
+}
+.form{
+    margin-left: 40%;
+}
+.text{
+    width: 340PX;
+}
+.mail{
+    
+    width: 340PX;
+}
+.textarea{
+    
+    width: 340PX;
+}
+.envoie{
+    width: 350PX;
+    height: 33PX;
+    background:linear-gradient(90deg,#054457,#0a6a87);
+    border-radius: 40PX;
+    color: #FFF;
+    text-decoration: none;
+    letter-spacing: 2PX;
+    font-size: 18PX;
+    border: solid, #054457 2PX;
+    cursor: pointer;
+
+
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 270PX;
+}
+.mesinfos{
+    display: inline-flex;
+    color: #FFF;
+    
+}
+.objectifs{
+    color: #FFF;
+    margin-left: 34PX;
+}
+.mesobjectifs{
+    color: #FFF;
+    margin-left: 4PX;
+
+}
+.mesheures{
+    color: #FFF;
+    margin-left: 154PX;
+    
+}
+#mesobj{
+    text-align: center;
+}
+.mecontacter{
+    color: #FFF;
+     margin-left: 224PX; 
+    text-align: center;
+    
+}
+.tag{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    color: #FFF;
+}
