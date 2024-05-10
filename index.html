@@ -5,32 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/fe5d57f04e.js" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/fe5d57f04e.js" crossorigin="anonymous"></script> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 
     <title>Produits locaux</title>
 </head>
 
 <body>
     <header class="Entete">
-        <li class="liste">
-            <a href="" class="logo">DIMS</a>
-            <a href="" class="accueil">Accueil</a>
-            <a href="" class="produite">Produits</a>
-            <a href="" class="service">Service</a>
-            <a href="" class="contacte">Contacte</a>
+        <a href="" class="logo">DIMS</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <!-- <box-icon name='menu'></box-icon> -->
+            <i class="fa-solid fa-bars" id="menu-icone"></i>
+            <i class="fa-solid fa-x" id="close-icone"></i>
+        </label>
+        <nav class="navbar">
+           
+            <a href=""                   style="--i:0;" >Accueil</a>
+            <a href="" class="produite"  style="--i:1;">Produits</a>
+            <a href="" class="service"   style="--i:2;">Service</a>
+            <a href="" class="contacte"  style="--i:3;">Contacte</a>
+            <a href="" class="contacte"  style="--i:4;"><i class="fa-solid fa-magnifying-glass" id="search"></i><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="" class="contacte"  style="--i:5;"><button type="button" class="abonnement">S'abonner</button></a>
+<!-- 
             <div class="icones" id="icones">
-        <i class="fa-solid fa-magnifying-glass" id="search"></i><i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search"></i><i class="fa-solid fa-cart-shopping"></i>
            </div>
            
           
-            <button type="submit" class="abonnement">s'abonner</button>
-        </li>
+            <button type="submit" class="abonnement">s'abonner</button> -->
+        </nav>
 
     </header>
 
     <section class="part1">
         <div class="box1">
-            <h2>Produits locaux</h2>
+            <p class="ProduitEslocaux">Produits locaux</p>
             <p class="P1">Transformation agroalimentaire</p>
             <P class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa libero eius molestiae
                 cupiditate id nostrum aut hic quisquam. A molestias consequatur iusto nemo maiores blanditiis itaque
