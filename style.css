@@ -54,7 +54,7 @@ z-index: -1;
 
   .icons {
      position: absolute; 
-     left: 45%;
+     left: 25%;
     font-size: 2.8rem;
     color: #fff;
     cursor: pointer;
@@ -119,7 +119,8 @@ z-index: -1;
         height: 9PX;
         text-decoration: none;
         font-weight: 500;
-        margin-left:-50%;
+        margin-left:0;
+        
     
     }
 
@@ -129,8 +130,171 @@ z-index: -1;
         transition-delay: calc(.15s * var(--i));
     }
 
+
+    .part1{
+   
+      background-color: rgb(245, 245, 245);
+      height: -64PX;
+      margin-top: 17PX;
+      width: 100%;
+     
+    }
+   .part1 .ProduitEslocaux{
+        font-size: 19PX;
+        margin-top: -44PX;
+        margin-left: -63PX;
+      
+  
+    }
+   .part1 .ProduitEslocaux{
+        font-size: 19PX;
+        margin-top:-12PX;
+
+    }
+    .part1 .agro{
+        font-size: 28PX;
+        margin-left: -63PX;
+    }
+    .part1 .p1{
+        font-size: 5PX;
+    }
+    .part1 .p2{
+        font-size: 11PX;
+        margin-left: -63PX;
+    }
+   .part1 .box1{
+        margin-right: 10PX;
+        margin-top: 152PX;
+        width: 90%;
+        font-size: 23PX;
+    }
+
+    .part1 .box2{
+        margin-top: 22PX;
+    }
+     .part1 .modifimg{
+       width: 200PX;
+       /* margin-right: 1002PX; */
+       margin-top: 265PX;
+       margin-left: -154PX;
+       margin-top: 130PX;
+       
+       
+    }
+    .part1 .voter{
+        width: 118PX;
+        /* margin-left: -65PX; */
+    }
+
+    .part2 .box3{
+        width: 100%;
+        margin-left:   0PX;
+
+    }
+     .box3 .image1{
+     width: 150PX;   
+     margin-right: 95PX;
+    }
+  
+    .part2 .box4{
+        margin-top: 510PX;
+        margin-left: -484PX;
+        width: 485PX;
+    
+    }
+    .box4 .p3{
+ font-size: 15PX;
+ margin-left: 145PX;
+    }
+    .box4 .p4{
+        font-size: 10PX;
+        margin-left: 56PX;
+        margin-top: 12PX;
+           }
+    
+    .imagesbox .imagesboxe1{
+        width: 100PX;
+        font-size: small;
+        margin-left: 53PX;
+        display: inline-flex;
+      
+        
+    }  
+    .part3{
+        height: 1050PX;
+    }
+#imagesboxe2{
+        margin-left: 193PX;
+    } 
+
+    .part3 .lesproduits{
+    
+        display: flex;
+    }
+    .lesproduits .boximg {
+        border: solid rgb(174, 174, 174) 1PX;
+        margin-left: -25PX;
+        border-radius: 10PX;
+        background-color: rgb(174, 174, 174);
+        box-shadow: -15PX, -25PX, -25PX, -15PX rgb(152, 152, 152);
+        margin-bottom: 22PX;
+        width: 210PX;
+
+    }
+
+
+     
+
+.boximg{
+    width: 100PX;
+    margin-right: 30PX;
+}
+#monboximg001{
+    margin-top: 674PX;
+
+}
+
+#monboximg002{
+    margin-top: -340PX;
+    height: 56PX;
+}
+#monboximge004{
+    margin-top: 334PX;
+    margin-left: -25PX;
+}
+#monboximg005{
+    margin-top: 690PX;
+    margin-left: -235PX;
+}
+#monboximgES007{
+    margin-top: 10PX;
+    margin-left: -245PX;
+}
+#monboximg008{
+    margin-top: 325PX;
+    margin-left: -444PX;
+}
+#monboximgE009{
+    margin-top: 2PX;
+    margin-left: -249PX;
+}
+#monboximg003{
+    margin-top: 342PX;
+    margin-left: -455PX;
+}
+
+.boximg .monboximg1{
+    width: 220PX;
+}
+
+  .monboximg2 .monbox2{
+        width: 70PX;
+    }
+
    
 }
+
+
 @media(max-width: 1492PX){
     .P1{
         font-size: 10PX;
@@ -142,11 +306,6 @@ z-index: -1;
     .P2{
         font-size: 10PX;
         font-weight: bold;
-    }
-    .modifimg{
-        width: 150PX;
-        margin-right: 67PX;
-
     }
 }
 
@@ -173,7 +332,7 @@ z-index: -1;
     .navbar{
         position: absolute;
         top: 100%;
-        left: 0;
+        left: -30%;
         width: 100%;
         height: 0%;
         
@@ -326,6 +485,8 @@ font-size: 12PX;
 .box2{
      margin-left: 160PX;
      margin-top: 152PX; 
+
+     
 }
  .modifimg{
 width: 645PX;
@@ -420,6 +581,7 @@ border-radius: 0PX 90PX 0PX  90PX;
 border: solid #00000033 9PX;
 height: 184PX;
 margin-left: 10PX;
+width: 200PX;
 }
 .lesproduits{
     display: inline-flex;
@@ -446,6 +608,7 @@ margin-left: 10PX;
 }
 .lesproduits{
     margin-left: 34PX;
+    height: 344PX;
 }
 .PRODUITSNATURELS{
     text-align: center;
@@ -497,10 +660,14 @@ margin-left: 10PX;
 .monboximg1{
     font-size: 12PX;
     padding-top: 14PX;
+    /* width: 209PX;
+    height: 200PX; */
 }
 .monboximg2{
     font-size: 12PX;
     padding-top: 14PX;
+    /* width: 209PX;
+    height: 200PX; */
 }
 .monboximg3{
     font-size: 12PX;
