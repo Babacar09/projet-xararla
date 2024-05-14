@@ -154,14 +154,15 @@ z-index: -1;
    .part1 .ProduitEslocaux{
         font-size: 35PX;
         margin-top:-92PX;
-        text-align: center;
+        /* text-align: center; */
         padding-top: 32PX;
-        margin-left: 83PX;
+         margin-left: -13PX; 
+       
 
     }
     .part1 .agro{
         font-size: 38PX;
-        margin-left: 63PX;
+        margin-left: 3PX;
         margin-top: 11px;
     }
     .part1 .p1{
@@ -191,9 +192,9 @@ z-index: -1;
      .box2 .modifimg{
        width: 300PX;
        /* margin-right: 1002PX; */
-       margin-top: 265PX;
+       /* margin-top: 265PX; */
        margin-left: -484PX;
-       margin-top: 130PX;
+        margin-top: 150PX; 
        
        
     }
