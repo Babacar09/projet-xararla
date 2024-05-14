@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "popins",sans-serif;
+    outline: none;
 
 }
 
@@ -103,9 +104,10 @@ z-index: -1;
         transition: .3s ease;
     }
 
-    #check:checked~.navbar{
-        height: 17.7rem;
-    }
+    /* #check:checked~.navbar{
+         height: 17.7rem; 
+        height: calc(100vh - 78.25px);
+    } */
 
     .navbar a{
         display: block;
@@ -134,26 +136,33 @@ z-index: -1;
     .part1{
    
       background-color: rgb(245, 245, 245);
-      height: -64PX;
+      height: 768PX;
       margin-top: 17PX;
       width: 100%;
      
     }
-   .part1 .ProduitEslocaux{
-        font-size: 19PX;
-        margin-top: -44PX;
-        margin-left: -63PX;
+   .box1 .ProduitEslocaux{
+        font-size: 35PX;
+        margin-top: 34PX;
+        margin-left: 63PX;
+        text-align: center;
       
   
     }
+
+ 
    .part1 .ProduitEslocaux{
-        font-size: 19PX;
-        margin-top:-12PX;
+        font-size: 35PX;
+        margin-top:-92PX;
+        text-align: center;
+        padding-top: 32PX;
+        margin-left: 83PX;
 
     }
     .part1 .agro{
-        font-size: 28PX;
-        margin-left: -63PX;
+        font-size: 38PX;
+        margin-left: 63PX;
+        margin-top: 11px;
     }
     .part1 .p1{
         font-size: 5PX;
@@ -169,20 +178,28 @@ z-index: -1;
         font-size: 23PX;
     }
 
-    .part1 .box2{
-        margin-top: 22PX;
+    .box1 .p2{
+        margin-top: 12PX;
+        font-size: 20PX;
+        text-align: center;
+        margin-left: 33PX;
     }
-     .part1 .modifimg{
-       width: 200PX;
+
+    .part1 .box2{
+        margin-top: 432PX;
+    }
+     .box2 .modifimg{
+       width: 300PX;
        /* margin-right: 1002PX; */
        margin-top: 265PX;
-       margin-left: -154PX;
+       margin-left: -484PX;
        margin-top: 130PX;
        
        
     }
-    .part1 .voter{
-        width: 118PX;
+    .box1 .voter{
+        width: 108PX;
+        margin-left: 95PX;
         /* margin-left: -65PX; */
     }
 
@@ -193,7 +210,16 @@ z-index: -1;
     }
      .box3 .image1{
      width: 150PX;   
-     margin-right: 95PX;
+     margin-left: 35PX;
+    } 
+    .box3 .image2{
+        width: 150PX;   
+        margin-left: 35PX;
+        margin-top: 4PX;
+       }
+    .box3 .image1{
+     width: 150PX;   
+     margin-left: 35PX;
     }
   
     .part2 .box4{
@@ -203,21 +229,56 @@ z-index: -1;
     
     }
     .box4 .p3{
- font-size: 15PX;
+ font-size: 20PX;
  margin-left: 145PX;
     }
     .box4 .p4{
         font-size: 10PX;
-        margin-left: 56PX;
+        margin-left: 66PX;
         margin-top: 12PX;
+        text-align: center;
            }
     
+    .part2 .imagesbox{
+         width: 475PX; 
+       
+        display: table;
+    }
+
     .imagesbox .imagesboxe1{
-        width: 100PX;
+        width: 200PX;
+        font-size: small;
+       
+        /* display: none; */
+        border-radius: 20PX;
+        margin-left: 150PX;
+        margin-top: 12PX;
+   
+      
+        
+    }  
+
+    .imagesbox .imagesboxe2{
+        width: 200PX;
         font-size: small;
         margin-left: 53PX;
-        display: inline-flex;
+        /* display: none; */
+        border-radius: 20PX;
+        margin-left: 150PX;
+        margin-top: 12PX;
       
+        
+    }  
+
+    .imagesbox .imagesboxe3{
+        width: 200PX;
+        font-size: small;
+        /* margin-left: 53PX; */
+        /* display: none; */
+        border-radius: 20PX;
+        margin-left: 150PX;
+        margin-top: 12PX;
+        margin-bottom: 12PX;
         
     }  
     .part3{
@@ -229,9 +290,123 @@ z-index: -1;
 
     .part3 .lesproduits{
     
-        display: flex;
+        
+             margin-left: 34PX;
+            height: auto;
+            display: grid;
+            gap: 1.3rem; 
+            grid-template-columns: repeat(auto-fit,minmax(214PX, 1fr));
+        
+
     }
-    .lesproduits .boximg {
+  .lesproduits   .boximg{
+     
+        margin-left: -3PX;
+        border-radius: 10PX;
+        background-color: rgb(174, 174, 174);
+        box-shadow: -15PX, -25PX, -25PX,-15PX rgb(152, 152, 152);
+        margin-bottom: 12PX;
+        width: 100%; 
+        position: relative;
+        overflow: hidden;
+        height: 420PX;
+     }
+  
+.sankal{
+    height: 30PX;
+}
+.boximg .PRODUITSNATURELS{
+    height: 30PX;
+
+}
+.boximg .prix{
+    height: 30PX;
+}
+.boximg .tag{
+    height: 30PX;
+}
+
+.boxajouter{
+    margin-bottom: 50PX;
+}
+
+.par7 .mesboxes1{
+    width: 100%;
+    height: 1000PX; 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(217PX,1fr));
+    align-items: center;
+     /* margin-left: 223PX;  */
+     gap: 1.5rem;
+     justify-content: center;
+     position: relative;
+     overflow: hidden;
+     padding-right: 162PX;
+    
+    
+   
+  
+
+    
+    
+
+}
+.mesboxes1 .boxes2{
+    width: 300PX;
+    margin-left: 37PX;
+   
+            
+
+}
+
+ .par8 .form{
+    margin-left: 20PX;
+}
+
+
+
+.monfooter  {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(217PX, 1fr));
+    align-items: center;
+    /* margin-left: 223PX; */
+    gap: 1.5rem;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding-right: 162PX;
+}
+
+
+.mesinfos {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(217PX, 1fr));
+    align-items: center;
+    /* margin-left: 223PX; */
+    gap: 1.5rem;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 67PX;
+ 
+}
+
+.copyright{
+ margin-left: 65PX;
+    color: #FFF;
+        width: 225PX;
+}
+
+.objectifs .mesheures{
+    text-align: center;
+}
+
+    /* .lesproduits .boximg {
         border: solid rgb(174, 174, 174) 1PX;
         margin-left: -25PX;
         border-radius: 10PX;
@@ -240,12 +415,12 @@ z-index: -1;
         margin-bottom: 22PX;
         width: 210PX;
 
-    }
+    } */
 
 
      
 
-.boximg{
+/* .boximg{
     width: 100PX;
     margin-right: 30PX;
 }
@@ -281,17 +456,65 @@ z-index: -1;
 #monboximg003{
     margin-top: 342PX;
     margin-left: -455PX;
-}
+} */
 
 .boximg .monboximg1{
-    width: 220PX;
+    width: 620PX;
+ 
 }
+/* .boximg .monboximg2{
+    width: 620PX;
+ 
+} */
 
   .monboximg2 .monbox2{
         width: 70PX;
     }
 
+  
+   .Monimages1 img {
+    width: 50PX;
+    margin-left: -34PX;
+   }
+
+   .monboximg1 .monbox1{
+    width:  400PX;
+    height: 250PX;
+   }
+
+   .monboximg2 .monbox2{
+    width:  400PX;
+    height: 250PX;
+   }
+
    
+   .monboximg3 .monbox3{
+    width:  400PX;
+    height: 250PX;
+   }
+
+   .monboximg4 .monbox4{
+    width:  400PX;
+    height: 250PX;
+   }
+   .monboximg5 .monbox5{
+    width:  400PX;
+    height: 250PX;
+   }
+   .monboximg6 .monbox6{
+    width:  400PX;
+    height: 250PX;
+   }
+   .monboximg7 .monbox7{
+    width:  400PX;
+    height: 250PX;
+   }
+   .monboximg8 .monbox8{
+    width:  400PX;
+    height: 250PX;
+   }
+
+
 }
 
 
@@ -366,7 +589,76 @@ z-index: -1;
         opacity: 1;
         transition-delay: calc(.15s * var(--i));
     }
+
+   
+   .par4 .temoignage{
+        font-size: 22PX;
+    }
+
+    .par4 .lorem{
+        font-size: 12PX;
+    }
+    .par4 .mesboxes{
+        /* margin-left: 123PX; */
+        margin-top: 12PX;
+        height: auto;
+    }
+
+    .mesboxes .boxes1{
+        width: 240PX;
+        margin-left: 37PX;
+    }
+
+   #Mesimages   #mesimageslogo1{
+       width: 90PX;
+       margin-left: -248PX;
+    }
+    .par4{
+        height: auto;
+    }
+
+    .par5{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(214PX, 1fr));
+        column-gap: 12PX;
+    }
+    .mesimgpar5 .imgpar5{
+        width: auto;
+        margin-right: 94PX;
+    }
+
+    .moninput{
+        margin-left: -950PX;
+    }
+
+    .par6 .myform{
+   
+        /* text-align: center; */
+        /* margin-left: 39%; */
+        /* margin-top: 15%; */
+        width: 350PX;
+        height: 63PX;
+        border-radius: 10PX;
+        padding: 15PX;
+        /* align-items: center; */
+    }
+
+    .moninput{
+        width: 320PX;
+        height: 36PX;
+        margin-left: -4PX;
+    }
+
+    .par7{
+        height: auto;
+    }
 }
+
+.mesimgpar5 .imgpar5{
+    width: auto;
+    margin-right: 94PX;
+}
+
 /* .liste{
     list-style: none;
     padding-left: 10px;
@@ -467,7 +759,7 @@ font-size: 12PX;
 .part1{
     display: inline-flex;
   background-color: rgb(245, 245, 245);
-  height: 545PX;
+/* height: 545PX; */
   margin-top: 17PX;
   width: 100%;
 }
@@ -583,20 +875,40 @@ height: 184PX;
 margin-left: 10PX;
 width: 200PX;
 }
-.lesproduits{
-    display: inline-flex;
+
+.imagesboxe2{
+    border-radius: 0PX 90PX 0PX  90PX;
+    border: solid #00000033 9PX;
+    height: 184PX;
+    margin-left: 10PX;
+    width: 200PX;
+    }
+
+    .imagesboxe3{
+        border-radius: 0PX 90PX 0PX  90PX;
+        border: solid #00000033 9PX;
+        height: 184PX;
+        margin-left: 10PX;
+        width: 200PX;
+        }
+/* .lesproduits{
+    display: grid;
     margin-left: 110PX;
+    grid-template-columns: 200PX 1fr;
     
     
-}
+} */
 .boximg{
-    border: solid rgb(174, 174, 174) 1PX;
+     border: solid rgb(174, 174, 174) 1PX;
     margin-left: 25PX;
     border-radius: 10PX;
     background-color: rgb(174, 174, 174);
     box-shadow: -15PX, -25PX, -25PX,-15PX rgb(152, 152, 152);
     margin-bottom: 22PX;
-    width: 209PX;
+    width: 200PX; 
+    position: relative;
+    overflow: hidden;
+    /* height: 340PX; */
 }
 .h3{
     text-align: center;
@@ -606,9 +918,12 @@ width: 200PX;
 .sankal{
     text-align: center;
 }
-.lesproduits{
+.part3 .lesproduits{
     margin-left: 34PX;
-    height: 344PX;
+    height: auto;
+    display: grid;
+    gap: 1.3rem;
+    grid-template-columns: repeat(auto-fit,minmax(247PX, 1fr));
 }
 .PRODUITSNATURELS{
     text-align: center;
@@ -655,6 +970,43 @@ width: 200PX;
 }
 .monbox1{
     font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox2{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox3{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox4{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox5{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox6{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox7{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
+}
+.monbox8{
+    font-size: 3PX;
+    width: 209px;
+    height: 200PX;
 }
 
 .monboximg1{
@@ -677,8 +1029,28 @@ width: 200PX;
     font-size: 12PX;
     padding-top: 14PX;
 }
+.monboximg5{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg6{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg7{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
+.monboximg8{
+    font-size: 12PX;
+    padding-top: 14PX;
+}
 .part3{
-    background-color: rgb(216, 216, 216);
+     background-color: rgb(216, 216, 216);
+    
+
+ 
+
     
     
     
@@ -687,7 +1059,7 @@ width: 200PX;
 .par4{
    
     background-size: cover;
-    height: 500PX;
+     /* height: 800PX;  */
     top: 0;
     background-repeat: no-repeat;
     left: 0;
@@ -709,40 +1081,81 @@ width: 200PX;
     color: #FFF;
 }
 .mesboxes{
-    display: inline-flex;
-    align-items: center;
-    margin-left: 323PX;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(237PX,1fr));
+    gap: 3.1rem ;
+
+    /* align-items: center; */
+    margin-left: 63PX;
+    width: 100%;
+   
+
 
 }
 .mesboxes1{
-    display: inline-flex;
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(217PX,1fr));
     align-items: center;
-    margin-left: 323PX;
+     /* margin-left: 223PX;  */
+     gap: 100PX 100PX;
+     justify-content: center;
+     
+    
     
 
 }
 .boxes1{
+    overflow: hidden;
+    position: relative;
     border:solid, #ffffff7f 1PX;
-    width: 180PX;
+    max-width: 200px;
     height: 300PX;
     border-radius: 10PX;
     background-color: #FFF;
     padding-left: 23PX;
     margin-left: 10PX;
 }
+.Monimages1{
+    width: 150PX;
+    align-items: center;
+}
 .boxes2{
-    border:solid, #FFF 1PX;
-    width: 180PX;
+     border:solid, #FFF 1PX;
+     max-width:250PX; 
+    height: 300PX;
+     border-radius: 10PX; 
+    background-color: #FFF;
+     padding-left: 0PX;
+    margin-left: 10PX; 
+    /* position: relative; */
+    /* overflow: hidden;  */
+
+
+
+    /*overflow: hidden;
+    position: relative;
+    border: solid, #ffffff7f 1PX;
+    width: 100px;
     height: 300PX;
     border-radius: 10PX;
     background-color: #FFF;
     padding-left: 23PX;
-    margin-left: 10PX;
+    margin-left: 10PX;*/
+
 }
 .monimageslogo{
     border-radius: 50%;
-    margin-left: 28PX;
+    margin-left: 68PX;
     margin-top: 12PX;
+    width: 70PX;
+   
+}
+.monimageslogo1{
+    border-radius: 50%;
+    margin-left: 48PX;
+    margin-top: 12PX;
+    width: 70PX;
+   
 }
 .monlorem{
     text-align: center;
@@ -757,9 +1170,9 @@ width: 200PX;
 .par5{
     background-color: #8f8f8f;
 }
-.par5{
+/* .par5{
     display: inline-flex;
-}
+} */
   /* .mesimagespare5,img{
     
     font-size: 12PX;
@@ -774,21 +1187,31 @@ width: 200PX;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
- }
-.moninput{
+
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-left: 39%;
-    margin-top: 15%;
+ }
+.par6 .myform{
+   
+    /* text-align: center; */
+    /* margin-left: 39%; */
+    /* margin-top: 15%; */
     width: 350PX;
-    height: 23PX;
+    height: 63PX;
     border-radius: 10PX;
+    padding: 15PX;
+    /* align-items: center; */
+}
+.moninput{
+    width: 320PX;
+    height: 36PX;
 }
 .monbutton{
     height: 37PX;
     width: 177PX;
     background-color: rgb(8, 136, 93);
-    margin-left: 47%;
+    margin-left: 25%;
     border-radius: 6PX;
     color: #FFF;
     margin-top: 12PX;
@@ -801,7 +1224,7 @@ width: 200PX;
 }
 .par7{
     background-color: #d3d3d3;
-    height: 404PX;
+    /* height: 404PX; */
    
 }
 .par8{
@@ -851,10 +1274,24 @@ footer{
     background-color: #000;
     width: 100%;
     height: 270PX;
+    
+    
 }
 .mesinfos{
-    display: inline-flex;
-    color: #FFF;
+    /* display: inline-flex;
+    color: #FFF; */
+
+        /* width: 100%; */
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(217PX, 1fr));
+        align-items:first baseline;
+        /* margin-left: 223PX; */
+        gap: 1.1rem;
+        justify-content: center;
+        /* position: relative; */
+        /* overflow: hidden; */
+      
     
 }
 .objectifs{
@@ -868,15 +1305,16 @@ footer{
 }
 .mesheures{
     color: #FFF;
-    margin-left: 154PX;
+     /* margin-left: 154PX;  */
+     text-align: center; 
     
 }
-#mesobj{
+.mesobjectifs{
     text-align: center;
 }
 .mecontacter{
     color: #FFF;
-     margin-left: 224PX; 
+     /* margin-left: 224PX;  */
     text-align: center;
     
 }
@@ -884,9 +1322,19 @@ footer{
     text-align: center;
 }
 .copyright{
+    margin-top: 82PX;
     text-align: center;
     color: #FFF;
 }
+#check:checked~.navbar{
+    /* height: 17.7rem; */
+    height: calc(100vh - 78.25px);
+}
 
+.par5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247PX, 1fr));
+    column-gap: 12PX;
+}
     
     /* *********** Responsiveness of header ************** */
