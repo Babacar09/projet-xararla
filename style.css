@@ -193,7 +193,7 @@ z-index: -1;
        width: 300PX;
        /* margin-right: 1002PX; */
        /* margin-top: 265PX; */
-       margin-left: -484PX;
+       margin-left: -454PX;
         margin-top: 150PX; 
        
        
@@ -252,7 +252,7 @@ z-index: -1;
        
         /* display: none; */
         border-radius: 20PX;
-        margin-left: 150PX;
+        margin-left: 200PX;
         margin-top: 12PX;
    
       
@@ -265,7 +265,7 @@ z-index: -1;
         margin-left: 53PX;
         /* display: none; */
         border-radius: 20PX;
-        margin-left: 150PX;
+        margin-left: 200PX;
         margin-top: 12PX;
       
         
@@ -277,7 +277,7 @@ z-index: -1;
         /* margin-left: 53PX; */
         /* display: none; */
         border-radius: 20PX;
-        margin-left: 150PX;
+        margin-left: 200PX;
         margin-top: 12PX;
         margin-bottom: 12PX;
         
@@ -300,7 +300,7 @@ z-index: -1;
     }
   .lesproduits   .boximg{
      
-        margin-left: -3PX;
+        margin-left: -17PX;
         border-radius: 10PX;
         background-color: rgb(174, 174, 174);
         box-shadow: -15PX, -25PX, -25PX,-15PX rgb(152, 152, 152);
@@ -312,6 +312,18 @@ z-index: -1;
      }
   
 .sankal{
+    height: 30PX;
+}
+.arraw{
+    height: 30PX;
+}
+.produitsnaturels1{
+    height: 30PX;
+}
+.produitsnaturels2{
+    height: 30PX;
+}
+.produitsnaturels3{
     height: 30PX;
 }
 .boximg .PRODUITSNATURELS{
@@ -353,7 +365,7 @@ z-index: -1;
 }
 .mesboxes1 .boxes2{
     width: 300PX;
-    margin-left: 37PX;
+    margin-left: 67PX;
    
             
 
